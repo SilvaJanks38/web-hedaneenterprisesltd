@@ -848,6 +848,24 @@ transform-origin: 50%;
 .header-4 .mainmenu-area .navbar-nav .nav-link {
 	padding: 15px 24px;
 }
+/* GO TO dropdown override */
+.header-go-dropdown {
+    position: relative;
+}
+
+.header-go-dropdown .dropdown-menu {
+    top: 110%;
+    left: 0;
+    min-width: 180px;
+}
+
+/* Show the dropdown when hovering the container */
+.header-go-dropdown:hover .dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
+}
+
 
 /*
 * ----------------------------------------------------------------------------------------
